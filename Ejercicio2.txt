@@ -1,0 +1,7 @@
+Algoritmo Ejercicio2
+	Escribir "Digite un país"
+	leer pais
+	Escribir "Digite la capital del país"
+	leer capital
+	Escribir capital, "es la capital de ",pais
+FinAlgoritmo
