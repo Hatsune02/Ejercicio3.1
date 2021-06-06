@@ -1,0 +1,9 @@
+Algoritmo Ejercicio1
+	Escribir "Digite el primer número"
+	leer var1 
+	Escribir "Digite el segundo número"
+	leer var2 
+	
+	total = var1 + var2
+	Escribir "La suma de los número es: ", total
+FinAlgoritmo
