@@ -1,0 +1,7 @@
+Algoritmo Ejercicio3
+	Escribir "Digite un numero"
+	leer var
+	doble = var * 2
+	triple = var * 3
+	Escribir "El doble del número es: ",doble, " y el triple es: ",triple
+FinAlgoritmo
