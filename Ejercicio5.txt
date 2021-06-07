@@ -1,0 +1,7 @@
+Algoritmo Ejercicio5
+	Escribir "Digite un número"
+	leer var
+	varSig = var + 1
+	Escribir "El número siguiente es: ",varSig
+	
+FinAlgoritmo
