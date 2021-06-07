@@ -1,0 +1,8 @@
+Algoritmo Ejercicio4
+	Escribir "Digite un numero"
+	leer var
+	cuadrado = var * var
+	cubo = var * var * var
+	Escribir "El cuadrado del número es: ",cuadrado, " y el cubo es: ",cubo
+
+FinAlgoritmo
