@@ -1,0 +1,11 @@
+Algoritmo Ejercicio8
+	Escribir "Digite un numero"
+	leer var1
+	Escribir "Digite un numero"
+	leer var2
+	Escribir "Digite un numero"
+	leer var3
+	
+	promedio = (var1 + var2 + var3) / 3
+	Escribir "El promedio de los numero ingresados es: ",promedio
+FinAlgoritmo
