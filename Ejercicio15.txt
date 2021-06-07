@@ -1,0 +1,13 @@
+Algoritmo Ejercicio15
+	Escribir "Ingrese un numero"
+	leer var
+	Si(var = 0) Entonces
+		Escribir "El número es nulo"
+	SiNo
+		Si(var > 0) Entonces
+			Escribir "El número es positivo"
+		SiNo
+			Escribir "El número es negativo"
+		FinSi
+	FinSi
+FinAlgoritmo
