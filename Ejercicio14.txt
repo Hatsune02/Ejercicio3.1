@@ -1,0 +1,17 @@
+Algoritmo Ejercicio14
+	Escribir "Digite el dividendo"
+	leer dividendo
+	Escribir "Digite el divisor"
+	leer divisor
+	total = 0
+	Si(divisor <> 0) Entonces
+		Si(dividendo % divisor = 0) Entonces
+			Escribir "Si es divisible" 
+		SiNo
+			Escribir "El primer número no es divisible entre el segundo número"
+		FinSi
+	SiNo
+		Escribir "Esponja! enloqueciste?!"
+	FinSi
+	
+FinAlgoritmo
