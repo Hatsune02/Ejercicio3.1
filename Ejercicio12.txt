@@ -1,0 +1,7 @@
+Algoritmo Ejercicio12
+	Escribir "Ingrese los grados celcius"
+	leer celcius
+	fahrenheit = (celcius * 9/5) + 32
+	Escribir "La temperatura en grados Fahrenheit es de ",fahrenheit
+	
+FinAlgoritmo
