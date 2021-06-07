@@ -1,0 +1,10 @@
+Algoritmo Ejercicio11
+	Escribir "Ingrese medida en centimetros"
+	leer cm
+	yardas = cm / 91.44
+	metros = cm / 100
+	pies = cm / 30.46
+	pulgadas = cm / 2.54
+	Escribir "El numero en cm es: ",cm,", en yardas ",yardas,", en metros ",metros,", en pies ",pies," y en pulgadas",pulgadas
+	
+FinAlgoritmo
