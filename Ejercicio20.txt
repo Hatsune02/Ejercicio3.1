@@ -1,0 +1,53 @@
+Algoritmo Ejercicio20
+	Escribir "Ingrese un número"
+	leer var
+	d1 = 0
+	d2 = 0
+	d3 = 0
+	d4 = 0
+	d5 = 0
+	Si(var < 100000 Y var >9999) Entonces
+		Si(var%10 = 0) Entonces
+			d5 = 0
+		SiNo
+			d5 = var % 10
+			var = var - d5
+			d5 = d5/1
+		FinSi
+		Si(var%100 = 0) Entonces
+			d4 = 0
+		SiNo
+			d4 = var % 100
+			var = var - d4
+			d4 = d4/10
+		FinSi
+		
+		d3 = var%1000
+		var = var - d3
+		
+		Si(var%10000 = 0) Entonces
+			d2 = 0
+		SiNo
+			d2 = var % 10000
+			var = var - d2
+			d2 = d2/1000
+		FinSi
+		Si(var%100000 = 0) Entonces
+			d1 = 0
+		SiNo
+			d1 = var % 100000
+			var = var - d1
+			d1 = d1/10000
+		FinSi
+		
+		Si(d1 = d5 Y d2 = d4) Entonces
+			Escribir "Es capicúa"
+		SiNo
+			Escribir "No es capicúa"
+		FinSi
+		
+	SiNo
+		Escribir "No es número de 5 dígitos"
+	FinSi
+	
+FinAlgoritmo
