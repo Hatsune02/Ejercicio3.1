@@ -1,0 +1,16 @@
+Algoritmo Ejercicio13
+	Escribir "Digite el radio"
+	leer radio
+	Escribir "Digite la altura"
+	leer altura
+	volumen = 0
+	
+	Si (radio > 0 Y altura > 0) Entonces
+		volumen = PI * radio * radio * altura
+		Escribir "El volumen es: ", volumen
+	SiNo
+		Escribir "Las medidas no son mayores a cero, no existen"
+	FinSi
+	
+	
+FinAlgoritmo
