@@ -1,0 +1,12 @@
+Algoritmo Ejercicio9
+	Escribir "Digite una palabra"
+	leer var1
+	Escribir "Digite una palabra"
+	leer var2
+	aux = var1
+	var1 = var2 
+	var2 = aux
+	
+	Escribir "La primera palabra ahora es ", var1 ," y la segunda palabra ahora es",var2
+	
+FinAlgoritmo
