@@ -1,0 +1,5 @@
+Algoritmo Ejercicio6
+	var = azar(200)
+	aumento = var*1.3
+	Escribir "El número al azar es: ",var," y aumentado un 30% es: ",aumento
+FinAlgoritmo
