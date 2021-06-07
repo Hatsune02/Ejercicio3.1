@@ -1,0 +1,27 @@
+Algoritmo Ejercicio17
+	Escribir "Digite un número"
+	leer lado1
+	Escribir "Digite un número"
+	leer lado2
+	Escribir "Digite un número"
+	leer lado3
+	
+	Si(lado1 = lado2) Entonces
+		Si(lado2 = lado3)Entonces
+			Escribir "El triángulo es equilátero"
+		SiNo
+			Escribir "El triángulo es isósceles"
+		FinSi
+	SiNo
+		Si(lado2 = lado3)Entonces
+			Escribir "El triángulo es isósceles"
+		SiNo
+			Si(lado1 = lado3) Entonces
+				Escribir "El triángulo es isósceles"
+			SiNo
+				Escribir "El triángulo es escaleno"
+			FinSi
+			
+		FinSi
+	FinSi
+FinAlgoritmo
