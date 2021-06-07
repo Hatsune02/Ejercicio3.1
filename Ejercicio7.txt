@@ -1,0 +1,6 @@
+Algoritmo Ejercicio7
+	var = azar(40)
+	var = var+10
+	disminucion = var*0.85
+	Escribir "El número al azar es: ",var," y disminuido un 15% es: ",disminucion
+FinAlgoritmo
