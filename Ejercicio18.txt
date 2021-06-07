@@ -1,0 +1,43 @@
+Algoritmo Ejercicio18
+	Escribir "Ingrese un número"
+	leer var
+	numero = ConvertirATexto(var)
+	d1 = ""
+	d2 = ""
+	d3 = ""
+	d4 = ""
+	Si(var < 10000)Entonces
+		Si(var < 1000)Entonces
+			Si(var < 100)Entonces
+				Si(var < 10)Entonces
+					d1 = "0"
+					d2 = "0"
+					d3 = "0"
+					d4 = Subcadena(numero,1,1)
+				SiNo
+					d1 = "0"
+					d2 = "0"
+					d3 = Subcadena(numero,1,1)
+					d4 = Subcadena(numero,2,2)
+				FinSi
+			SiNo
+				d1 = "0"
+				d2 = Subcadena(numero,1,1)
+				d3 = Subcadena(numero,2,2)
+				d4 = Subcadena(numero,3,3)
+			FinSi
+		SiNo
+			d1 = Subcadena(numero,1,1)
+			d2 = Subcadena(numero,2,2)
+			d3 = Subcadena(numero,3,3)
+			d4 = Subcadena(numero,4,4)
+			
+		FinSi
+		
+		Escribir "El primer dígito es ",d1," El segundo dígito es ",d2," El tercer dígito es ",d3," El cuarto dígito es ",d4
+	SiNo
+		Escribir "El número es mayor a 4 dígitos"
+	FinSi
+	
+	
+FinAlgoritmo
